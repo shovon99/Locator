@@ -1,5 +1,22 @@
 #map {
-        height: 400px;
+        height: 500px;
         width: 90%;
         margin: auto;
        }
+
+#sharediv {
+	background-color: transparent;
+	width: 150px;
+	text-align: center;
+	float: left;
+	margin-left: 50px;
+}
+
+#lockgps {
+	background-color: transparent;
+	width: 180px;
+	text-align: center;
+	float: right;
+	margin-right: 50px;
+
+}
