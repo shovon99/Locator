@@ -1,0 +1,51 @@
+body {
+
+    margin: auto;
+    max-width: 1000px;
+}
+
+
+#profileImage {
+    width: 200px;
+    float: right;
+    
+}
+
+#group {
+    /*clear: both;
+    */
+    float: left;
+}
+#Buttons {
+    margin-top: 20px;
+    clear: left;
+    float: left;
+}
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+    
+
+}
+
+@media screen and (max-width: 450px)
+{
+    #profileImage {
+    width: 150px;
+    float: right;
+    
+    }
+    #group{
+        clear: both;
+        float: left;
+
+    }
+
+}
+
+

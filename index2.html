@@ -17,7 +17,7 @@
 
   <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-light" style="background-color: #e3f2fd;">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" style="background-color: #e3f2fd;">
 
       <a class="navbar-brand" href="#">Locator!</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -150,9 +150,20 @@
       </div>
 
     </div>
+      
+    <footer class="footer fixed-bottom">
+      
+      <div class="container">
+        
+        <button id="share" type="button" class="btn btn-info" onclick="openan(event)">Share Location</button>
+        <button  type="button" class="btn btn-success">Lock GPS Location</button>
+        
+      </div>
+      
+    </footer>
 
 
-    <div id="sharediv">
+    <!-- <div id="sharediv">
     <button id="share" type="button" class="btn btn-info" onclick="openan(event)">Share Location</button>
 
    </div>
@@ -160,7 +171,7 @@
    <div id="lockgps">
     <button  type="button" class="btn btn-success">Lock GPS Location</button>
 
-   </div>
+   </div> -->
 
 
 

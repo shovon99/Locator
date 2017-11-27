@@ -1,0 +1,84 @@
+body{
+  background-color: #363530;
+}
+#map {
+        height: 500px;
+        width: 100%;
+        margin: auto;
+        float: right;
+}
+.container-fluid{
+text-align: center;
+background-color: #757368;
+margin-top: 3%;
+margin-bottom: 3%;
+margin-left: 5%;
+margin-right: 5%;
+padding-top: 3%;
+padding-bottom: 5%;
+}
+.navbar{
+  background-color: #B5B2A1;
+}
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+/*page-1*/
+/*profile*/
+#profile{
+margin-bottom: 2%;
+}
+.avatar{
+  text-align: center;
+}
+#avatarpic{
+  margin-left: 45%;
+  margin-bottom: 3%;
+  width: 10%;
+}
+#avatarbtn{
+
+}
+/*group*/
+#group{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.list-group{
+  position:relative;
+  margin-left: 30%;
+  width: 40%;
+}
+.list-group-item{
+  background-color: #DBD8C3;
+}
+/*group buttons*/
+.button1{
+  margin-top: 2%;
+}
+.button1 button{
+  margin-left: 3%;
+}
+
+/*page-2*/
+#main2 img{
+
+}
+.btn-secondary{
+  background-color: #DBD8C3;
+}
+.map{
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 10%;
+}
+#gps{
+  margin-left: 55%;
+}
+#locker{
+  margin-top: 10%;
+}
